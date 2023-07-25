@@ -1,0 +1,60 @@
+body{
+    background-image: url(background.jpg);
+    background-size: cover;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.container{
+    width: 1000px;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 5%;
+}
+
+header, nav{
+    text-align: center;
+}
+
+header img{
+    width: 300px;
+}
+
+header h1{
+    color: limegreen;
+}
+
+nav{
+    background-color: limegreen;
+    padding: 15px;
+}
+
+section h2, div{
+    color: white;
+    margin-bottom: 5px;
+}
+
+.arrow:after{
+    content: "\2192";
+}
+
+.mid{
+    background-color: orange;
+    width: 30%;
+    height: 30px;
+    border-radius: 10px;
+}
+
+.high{
+    background-color: chartreuse;
+    width: 60%;
+    height: 30px;
+    border-radius: 10px;
+}
+
+.low{
+    background-color: red;
+    width: 10%;
+    height: 30px;
+    border-radius: 10px;
+}
+
